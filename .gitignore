@@ -1,0 +1,8 @@
+# Ignorar variables de entorno
+.env
+
+# Ignorar la carpeta de dependencias
+node_modules/
+
+# Ignorar el archivo de bloqueo de versiones
+package-lock.json
