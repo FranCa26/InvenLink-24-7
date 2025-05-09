@@ -1,0 +1,31 @@
+{
+  "name": "api-inventario",
+  "version": "1.0.0",
+  "description": "Backend para el Sistema de Gestión de Inventario",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "inventario",
+    "api",
+    "nodejs",
+    "express",
+    "mysql"
+  ],
+  "author": {
+    "name": "Dev Franco Catania",
+    "email": "francatania81@gmail.com"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mariadb": "^3.4.0",
+    "morgan": "^1.10.0"
+  }
+}
